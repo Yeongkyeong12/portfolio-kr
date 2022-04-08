@@ -18,7 +18,6 @@ function Navbar() {
         <li>About</li>
         <li>Skills</li>
         <li>Project</li>
-        <li>Contact</li>
       </ul>
 
       {/* Hamburger menu */}
@@ -36,8 +35,7 @@ function Navbar() {
         <li className="py-6 text-4xl">Home</li>
         <li className="py-6 text-4xl">About</li>
         <li className="py-6 text-4xl">skills</li>
-        <li className="py-6 text-4xl">Work</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">Project</li>
       </ul>
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
