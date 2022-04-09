@@ -12,14 +12,12 @@ function Project() {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Project
           </p>
-          <p className="py-6">These are my recent projects.</p>
+          <p className="py-6">최근에 참여했던 프로젝트 목록입니다.</p>
         </div>
 
         {/* Container */}
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* Grid Item*/}
-
           {/* project #1 */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
@@ -28,17 +26,26 @@ function Project() {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React.js Challenge App
+                Vue.js shopping mall
               </span>
+              <div className="m-2">#브랜드신발 쇼핑몰 #팀프로젝트</div>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://sinbalshop.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/Yeongkyeong12/Team_mini"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    Github
                   </button>
                 </a>
               </div>
@@ -53,17 +60,22 @@ function Project() {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Vue.js shopping mall
+                React.js Challenge App
               </span>
-              <div className="pt-8 text-center">
-                <a href="/">
+              <div className="m-2">#친환경 챌린지 어플 #팀프로젝트</div>
+              <div className="pt-10 text-center">
+                <a href="http://15.164.98.50/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/Green-Challenge/Green-Challenge-Client"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    Github
                   </button>
                 </a>
               </div>
@@ -78,7 +90,7 @@ function Project() {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Vue js weather App
+                Vue.js weather App
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -88,7 +100,7 @@ function Project() {
                 </a>
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    Github
                   </button>
                 </a>
               </div>

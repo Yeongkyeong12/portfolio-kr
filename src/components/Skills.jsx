@@ -17,7 +17,7 @@ function Skills() {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
             Skill
           </p>
-          {/* <p className="py-4">프로젝트에서 사용한 .</p> */}
+          <p className="py-4">사용 가능한 기술 스택 목록입니다.</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">

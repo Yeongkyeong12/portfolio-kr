@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaBlogger } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
@@ -11,7 +10,7 @@ function Navbar() {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
+        <img src={Logo} alt="LogoImage" style={{ width: "50px" }} />
       </div>
       {/* menu */}
       <ul className="hidden md:flex">
@@ -89,6 +88,8 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-gray-300 "
               href="https://github.com/Yeongkyeong12"
+              target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -97,6 +98,8 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-gray-300 "
               href="https://velog.io/@ooyk1204"
+              target="_blank"
+              rel="noreferrer"
             >
               Blog <FaBlogger size={30} />
             </a>
@@ -104,7 +107,9 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-12px] duration-300 bg-[#16375a]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href="https://crystalline-prawn-c3e.notion.site/4c117bc506ec4272aa7671f8321ad7bf"
+              target="_blank"
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

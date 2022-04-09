@@ -13,14 +13,16 @@ function About() {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>Hi, my name is Yeongkyeong Oh.</p>
+          <div className="sm:text-right text-4xl font-bold pb-4">
+            <p className="pb-5">Hi, my name is Yeongkyeong Oh.</p>
           </div>
           <div>
-            <p>
-              I love building new things, and have spent the last several years
-              working and learning in various fields. When I'm not coding, I
-              enjoy jogging and traveling.
+            <p className="mt-2.5">
+              💻패키징 디자인 스타트업 인턴으로 커리어를 시작했으며
+              <br />
+              💬능숙한 영어 역량으로 영문서 활용, 리서치에 강점이 있습니다.
+              <br />
+              🏃‍♀️유산소 운동을 좋아해 양재천을 자주 뛰곤 합니다.
             </p>
           </div>
         </div>

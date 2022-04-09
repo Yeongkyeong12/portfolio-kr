@@ -14,10 +14,15 @@ const Home = () => {
         <h2 className="text-4xl sm:text-5xl font-bold text-[#ced4ebd2]">
           Portfolio
         </h2>
-        <p className="text-[#ced4ebd2] py-4 max-w-[700px]">
+        {/* <p className="text-[#ced4ebd2] py-4 max-w-[700px]">
           I am a frontend developer looking for new job opportunities.
           Currently, I'm focused on new project applying React, Redux and style
           libraries.
+        </p> */}
+        <p className="text-[#ced4ebd2] py-4 max-w-[700px]">
+          안녕하세요! 새로운 지식을 배우고 적용하며 즐거움을 찾는,
+          <br />
+          주니어 프론트엔드 개발자 오영경입니다.
         </p>
         <div>
           <Link to="project" smooth={true} duration={500}>
