@@ -16,8 +16,24 @@ function Contact() {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            양식을 작성해주시거나, 해당 이메일로 연락주세요.
-            ohkyeong1995@gmail.com
+            양식을 작성해주시거나, 이메일로 연락 부탁드립니다:)
+            <br />
+            <div style={{ display: "flex" }}>
+              <svg
+                class="h-5 w-5 text-white mr-0.3 pt-1.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+              <p style={{ paddingBottom: "px" }}>ohkyeong1995@gmail.com</p>
+            </div>
           </p>
         </div>
         <input
@@ -35,7 +51,7 @@ function Contact() {
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
-          rows="10"
+          rows="7"
           placeholder="Message"
         ></textarea>
         <button className="text-white border-2 rounded-md hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">

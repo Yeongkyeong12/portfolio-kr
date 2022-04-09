@@ -27,7 +27,7 @@ function Navbar() {
         </li>
         <li>
           <Link to="skills" smooth={true} duration={500}>
-            Skills
+            Skill
           </Link>
         </li>
         <li>
@@ -46,6 +46,7 @@ function Navbar() {
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
+
       {/* mobile menu */}
       <ul
         className={
@@ -54,11 +55,31 @@ function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Project</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="project" smooth={true} duration={500}>
+            Project
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* 왼쪽 고정 Social icons */}
@@ -67,25 +88,17 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-12px] duration-300 bg-[#383737ea]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href="https://github.com/Yeongkyeong12"
             >
               Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-12px] duration-300 bg-[#26b185]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
-            >
-              Blog <FaBlogger size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-12px] duration-300 bg-[#70aae8]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href="https://velog.io/@ooyk1204"
             >
-              Email <HiOutlineMail size={30} />
+              Blog <FaBlogger size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-12px] duration-300 bg-[#16375a]">
