@@ -1,5 +1,6 @@
 import React from "react";
 import WorkImg from "../assets/workImg.png";
+import WorkImg2 from "../assets/workImg2.png";
 
 function Project() {
   return (
@@ -12,7 +13,7 @@ function Project() {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Project
           </p>
-          <p className="py-6">최근에 참여했던 프로젝트 목록입니다.</p>
+          <p className="py-6">참여했던 팀/개인 프로젝트 목록입니다.</p>
         </div>
 
         {/* Container */}
@@ -54,7 +55,7 @@ function Project() {
 
           {/* project #2 */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${WorkImg2})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto
           content-div"
           >
@@ -92,6 +93,7 @@ function Project() {
               <span className="text-2xl font-bold text-white tracking-wider">
                 Vue.js weather App
               </span>
+              <div className="m-2">#날씨앱 #개인프로젝트</div>
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
