@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaBlogger } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -14,10 +15,31 @@ function Navbar() {
       </div>
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Project</li>
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="project" smooth={true} duration={500}>
+            Project
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger menu */}
@@ -34,10 +56,12 @@ function Navbar() {
       >
         <li className="py-6 text-4xl">Home</li>
         <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">skills</li>
+        <li className="py-6 text-4xl">Skills</li>
         <li className="py-6 text-4xl">Project</li>
+        <li className="py-6 text-4xl">Contact</li>
       </ul>
-      {/* Social icons */}
+
+      {/* 왼쪽 고정 Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-12px] duration-300 bg-[#383737ea]">
