@@ -2,7 +2,6 @@ import React from "react";
 import WorkImg from "../assets/workImg.png";
 import WorkImg2 from "../assets/workImg2.png";
 import WorkImg3 from "../assets/workImg3.png";
-import WorkImg4 from "../assets/workImg4.png";
 
 function Project() {
   return (
@@ -87,7 +86,7 @@ function Project() {
 
           {/* project #3 */}
           <div
-            style={{ backgroundImage: `url(${WorkImg4})` }}
+            style={{ backgroundImage: `url(${WorkImg3})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto
           content-div"
           >
