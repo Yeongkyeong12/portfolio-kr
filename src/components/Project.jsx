@@ -1,6 +1,8 @@
 import React from "react";
 import WorkImg from "../assets/workImg.png";
 import WorkImg2 from "../assets/workImg2.png";
+import WorkImg3 from "../assets/workImg3.png";
+import WorkImg4 from "../assets/workImg4.png";
 
 function Project() {
   return (
@@ -85,22 +87,30 @@ function Project() {
 
           {/* project #3 */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${WorkImg4})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto
           content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Vue.js weather App
+                Vue.js Todo App
               </span>
-              <div className="m-2">#날씨앱 #개인프로젝트</div>
+              <div className="m-2">#투두리스트 #개인프로젝트</div>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://melodious-pithivier-94556a.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/Yeongkyeong12/vue-todolist"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Github
                   </button>
